@@ -1,0 +1,9 @@
+class CmdLineSum {
+    public static void main(String[] args) {
+        int sum = Integer.parseInt(args[0]) +
+                  Integer.parseInt(args[1]) +
+                  Integer.parseInt(args[2]);
+
+        System.out.println("Sum = " + sum);
+    }
+}
